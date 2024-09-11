@@ -4,15 +4,18 @@ Chuckles-Chai-Cafe is a coffee shop simulation that models a simple coffee shop 
 
 ## Files
 customer.py: Contains the Customer class, which represents a customer of the coffee shop.
+
 coffee.py: Contains the Coffee class, which represents different types of coffee available.
+
 order.py: Contains the Order class, which represents an order placed by a customer.
+
 main.py: The entry point of the application to run the app.
 
 ## Installation
-1.Clone the repository
-2.Install dependencies
-3.Create the necessary files
-4.Create the tests directory with test files
+1. Clone the repository
+2. Install dependencies
+3. Create the necessary files
+4. Create the tests directory with test files
 
 ## Running Tests
 Use pytest to run tests

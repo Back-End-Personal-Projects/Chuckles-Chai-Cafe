@@ -1,43 +1,21 @@
-# Chuckles-Chai-Cafe
-# Coffee Shop Domain Model
+#Chuckles-Chai-Cafe
+##Overview
+Chuckles-Chai-Cafe is a coffee shop simulation that models a simple coffee shop domain. The application includes classes for managing customers, coffee types, and orders. It demonstrates fundamental object-oriented programming principles, including class relationships, methods, and data validation.
 
-## Overview
+##Files
+customer.py: Contains the Customer class, which represents a customer of the coffee shop.
+coffee.py: Contains the Coffee class, which represents different types of coffee available.
+order.py: Contains the Order class, which represents an order placed by a customer.
+main.py: The entry point of the application to run the app.
 
-This repository models a Coffee Shop domain with `Customer`, `Coffee`, and `Order` entities. It demonstrates object-oriented programming principles including class relationships, methods, and data validation.
+##Installation
+1.Clone the repository
+2.Install dependencies
+3.Create the necessary files
+4.Create the tests directory with test files
 
-## Files
+##Running Tests
+Use pytest to run tests
 
-- `customer.py`: Contains the `Customer` class.
-- `coffee.py`: Contains the `Coffee` class.
-- `order.py`: Contains the `Order` class.
-- `tests/`: Contains test files for each class.
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repo_url>
-   cd coffee_shop
-
-2. Install dependencies:
-   ```bash
-   pipenv install
-   pipenv shell
-   pipenv install pytest
-
-3. create files:
-   ```bash
-   Create the coffeeshop directory with the following files:
-   coffee.py
-   customer.py
-   order.py
-
-   create a tests directory with the following test files:
-   tests_coffee.py
-   tests_customer.py
-   tests_order.py
-
-##Testing
-run tests using pytest
-
-
+##Description
+Chuckles-Chai-Cafe allows multiple clients to place orders for various types of coffee. The application supports managing customers, selecting coffee types, and processing orders. It aims to provide a basic but functional simulation of a coffee shop environment.
